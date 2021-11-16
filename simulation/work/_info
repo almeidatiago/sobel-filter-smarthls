@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/SmartHLS-2021.1.2/workspace/sobel-part1/simulation
+vcosim_tb
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1637100163
+!i10b 1
+!s100 DBDHQ;5zR^`KUEJO@]Ld01
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4AnMQ6EokM<0SYb8Kj_`b3
+S1
+R0
+w1637100147
+8../simulation/cosim_tb.sv
+F../simulation/cosim_tb.sv
+!i122 0
+L0 11 272
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OW;L;2020.4;71
+r1
+!s85 0
+31
+Z5 !s108 1637100163.000000
+!s107 ../simulation/cosim_tb.sv|../sobel-part1.v|
+Z6 !s90 ../sobel-part1.v|../simulation/cosim_tb.sv|
+!s101 -O0
+!i113 1
+o-O0
+Z7 tCvgOpt 0
+vsobel_filter
+R1
+!i10b 1
+!s100 LS6CTQXoCEUFGjgfZ0YS[1
+R2
+I;f_M=3IM^TZBQH8@036MK3
+R0
+Z8 w1637091581
+Z9 8../sobel-part1.v
+Z10 F../sobel-part1.v
+!i122 0
+L0 201 816
+R3
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 ../simulation/cosim_tb.sv|../sobel-part1.v|
+R6
+!s101 -O0
+!i113 1
+o-O0
+R7
+vsobel_filter_top
+R1
+!i10b 1
+!s100 IQ:DK;;[lbDkE[KOmFAl;3
+R2
+IjN:::2KOc3;VNY5C@@=BP2
+R0
+R8
+R9
+R10
+!i122 0
+L0 17 183
+R3
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!s101 -O0
+!i113 1
+o-O0
+R7

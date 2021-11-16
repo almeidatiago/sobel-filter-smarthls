@@ -1,0 +1,592 @@
+make[1]: Entering directory '/cygdrive/c/SmartHLS-2021.1.2/workspace/sobel-part1'
+Console Mode = Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4l_master\axi4lmstr.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_accel_ctrl.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_ram_dual_port_drwp.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_read_controller.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_read_decoder.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_selector.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_synthesis_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_write_controller.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_write_decoder.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\barrier\legup_barrier.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\data_receiver\data_receiver.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\data_receiver\data_receiver_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\div_signed.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\div_unsigned.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\legup_divider.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\double_buffering_module\double_buffering_module.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\fwft_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\fwft_fifo_qsys.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\ram_dual_port_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\sc_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\legup_select\legup_select.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_dual_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_dual_port_simple.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_single_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\rom_dual_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\rom_single_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory_transaction_monitor\legup_memory_transaction_monitor.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult_core.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult_pipelined.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\mutex\legup_lock.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\pipeline_register\legup_pipeline_register.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\priority_arbiter\priority_arbiter.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\register\hls_register.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_accelerator_adaptor\legup_accelerator_axi_bridge.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_accelerator_adaptor\legup_accelerator_bridge.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_64_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_64_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_adder_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_adder_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_compare.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_31.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_33.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_59.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_60.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_61.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_extend.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_multiplier_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_multiplier_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_346.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_347.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_348.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_subtractor_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_subtractor_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_truncate.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_arithmetic_microsemi_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_generic_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_microsemi_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_mult_simple.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_64_32_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_32_64_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_64_32_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_64_64_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_out_enable.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_stages.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_stages_en.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\sobel-part1.v'.
+The sobel-part1 project was opened.
+Warning:  The file:'constraint\sobel-part1.sdc' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\sobel-part1.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\barrier\legup_barrier.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\data_receiver\data_receiver.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\data_receiver\data_receiver_fifo.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\divider\div_signed.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\divider\div_unsigned.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\divider\legup_divider.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\double_buffering_module\double_buffering_module.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\fwft_fifo\fwft_fifo.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\fwft_fifo\fwft_fifo_qsys.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\fwft_fifo\ram_dual_port_fifo.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\fwft_fifo\sc_fifo.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\legup_select\legup_select.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\memory\ram_dual_port.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\memory\ram_dual_port_simple.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\memory\ram_single_port.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\memory\rom_dual_port.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\memory\rom_single_port.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\memory_transaction_monitor\legup_memory_transaction_monitor.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\multiplier\legup_mult.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\multiplier\legup_mult_core.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\multiplier\legup_mult_pipelined.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\mutex\legup_lock.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\pipeline_register\legup_pipeline_register.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\priority_arbiter\priority_arbiter.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\generic\register\hls_register.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptosi_32_32_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptosi_32_64_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptosi_64_32_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptosi_64_64_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptoui_32_32_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptoui_32_64_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptoui_64_32_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fptoui_64_64_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_adder_32.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_adder_64.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_compare.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_divider_32_31.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_divider_32_32.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_divider_32_33.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_divider_64_59.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_divider_64_60.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_divider_64_61.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_extend.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_multiplier_32.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_multiplier_64.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_remainder_32_346.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_remainder_32_347.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_remainder_32_348.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_subtractor_32.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_subtractor_64.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_truncate.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_mult_simple.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_sitofp_32_32_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_sitofp_32_64_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_sitofp_64_32_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_sitofp_64_64_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_uitofp_32_32_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_uitofp_32_64_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_uitofp_64_32_5.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_uitofp_64_64_4.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_wrappers\legup_fp_arithmetic_microsemi_wrapper.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_generic_wrapper.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_microsemi_wrapper.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\reg_stages\reg_out_enable.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\reg_stages\reg_stages.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_fp\reg_stages\reg_stages_en.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_accelerator_adaptor\legup_accelerator_axi_bridge.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\legup_accelerator_adaptor\legup_accelerator_bridge.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_accel_ctrl.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_ram_dual_port_drwp.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_read_controller.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_read_decoder.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_selector.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_synthesis_wrapper.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_write_controller.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4_slave\axi4slv_write_decoder.v' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'hdl\axi4l_master\axi4lmstr.v' already exists.
+          Are you sure you want to replace it? [YES]
+Updating files and tools states...
+Done.
+Warning:  The file:'simulation\in.mem' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'simulation\out.mem' already exists.
+          Are you sure you want to replace it? [YES]
+Warning:  The file:'simulation\UNUSED.mem' already exists.
+          Are you sure you want to replace it? [YES]
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4l_master\axi4lmstr.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_accel_ctrl.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_ram_dual_port_drwp.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_read_controller.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_read_decoder.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_selector.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_synthesis_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_write_controller.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_write_decoder.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\barrier\legup_barrier.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\data_receiver\data_receiver.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\data_receiver\data_receiver_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\div_signed.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\div_unsigned.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\legup_divider.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\double_buffering_module\double_buffering_module.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\fwft_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\fwft_fifo_qsys.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\ram_dual_port_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\sc_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\legup_select\legup_select.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_dual_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_dual_port_simple.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_single_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\rom_dual_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\rom_single_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory_transaction_monitor\legup_memory_transaction_monitor.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult_core.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult_pipelined.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\mutex\legup_lock.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\pipeline_register\legup_pipeline_register.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\priority_arbiter\priority_arbiter.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\register\hls_register.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_accelerator_adaptor\legup_accelerator_axi_bridge.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_accelerator_adaptor\legup_accelerator_bridge.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_64_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_64_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_adder_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_adder_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_compare.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_31.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_33.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_59.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_60.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_61.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_extend.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_multiplier_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_multiplier_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_346.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_347.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_348.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_subtractor_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_subtractor_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_truncate.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_arithmetic_microsemi_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_generic_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_microsemi_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_mult_simple.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_64_32_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_32_64_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_64_32_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_64_64_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_out_enable.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_stages.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_stages_en.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\sobel-part1.v'.
+The sobel-part1 project was closed.
+The Execute Script command succeeded.
+make[1]: Leaving directory '/cygdrive/c/SmartHLS-2021.1.2/workspace/sobel-part1'
+make[1]: Entering directory '/cygdrive/c/SmartHLS-2021.1.2/workspace/sobel-part1'
+Console Mode = Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4l_master\axi4lmstr.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_accel_ctrl.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_ram_dual_port_drwp.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_read_controller.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_read_decoder.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_selector.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_synthesis_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_write_controller.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\axi4_slave\axi4slv_write_decoder.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\barrier\legup_barrier.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\data_receiver\data_receiver.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\data_receiver\data_receiver_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\div_signed.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\div_unsigned.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\divider\legup_divider.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\double_buffering_module\double_buffering_module.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\fwft_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\fwft_fifo_qsys.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\ram_dual_port_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\fwft_fifo\sc_fifo.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\legup_select\legup_select.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_dual_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_dual_port_simple.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\ram_single_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\rom_dual_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory\rom_single_port.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\memory_transaction_monitor\legup_memory_transaction_monitor.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult_core.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\multiplier\legup_mult_pipelined.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\mutex\legup_lock.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\pipeline_register\legup_pipeline_register.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\priority_arbiter\priority_arbiter.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\generic\register\hls_register.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_accelerator_adaptor\legup_accelerator_axi_bridge.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_accelerator_adaptor\legup_accelerator_bridge.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_64_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptosi_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_64_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fptoui_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_adder_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_adder_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_compare.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_31.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_32_33.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_59.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_60.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_divider_64_61.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_extend.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_multiplier_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_multiplier_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_346.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_347.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_remainder_32_348.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_subtractor_32.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_subtractor_64.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_truncate.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_arithmetic_microsemi_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_generic_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_fp_wrappers\legup_fp_cast_microsemi_wrapper.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_mult_simple.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_32_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_64_32_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_sitofp_64_64_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_32_32_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_32_64_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_64_32_5.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\legup_uitofp_64_64_4.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_out_enable.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_stages.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\legup_fp\reg_stages\reg_stages_en.v'.
+Reading file 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\hdl\sobel-part1.v'.
+The sobel-part1 project was opened.
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\synthesis\synplify.log'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\synthesis\sobel_filter_top.srr'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\synthesis\run_options.txt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\synthesis\sobel_filter_top_dsp_rpt.txt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\synthesis\sobel_filter_top_ram_rpt.txt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\synthesis\sobel_filter_top_cdc.csv'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_compile_netlist_resources.xml'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_compile_netlist_hier_resources.csv'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_compile_ioff.xml'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_compile_netlist.log'
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Synthesis tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool
+*** IMPORTANT RECOMMENDATION *** If you haven't done so, it is highly recommended to add clock jitter information for each clock domain into Libero SoC through clock uncertainty SDC timing constraints. Please refer to the Libero SoC v2021.1 release notes for more details.
+
+Info: Active implementation is 'synthesis'
+Starting Synplify Pro from Synopsys...
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       1 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    432    0      0      'I_1' 
+
+Info: Demotion information: 
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+
+Info: [127205590]:  BLK014: Adding interface buffers. Port processed: 133, Added buffers: 117.
+Synthesis completed.
+----- Evaluating Initial State -------
+Info: Multi-Pass: Seed:   2
+
+
+----- Iteration 1 of 1 -----
+Info: Multi-Pass: Seed:   3
+
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_glb_net_report.xml'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_iteration_summary.rpt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_layout_combinational_loops.xml'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_place_and_route_constraint_coverage.xml'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_pinrpt_name.rpt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_pinrpt_number.rpt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_pinrpt_boardlayout.csv'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_pinrpt_boardlayout.xml'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_bankrpt.rpt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_delayinstance.rpt'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_layout_ioff.xml'
+Deleting 'C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top_layout_log.log'
+INFO: Reading User SDC file C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\constraint\sobel-part1.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+*** IMPORTANT RECOMMENDATION *** If you haven't done so, it is highly recommended to add clock jitter information for each clock domain into Libero SoC through clock uncertainty SDC timing constraints. Please refer to the Libero SoC v2021.1 release notes for more details.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : OFF
+Global Pins Demotion     : ON
+Driver Replication       : ON
+High-effort              : ON
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: No User PDC file(s) was specified.
+
+ Running Timing based Global Demotion. 
+        Demoted 0 global pins.
+
+ Timing based Global Demotion completed successfully. 
+
+Running the I/O Bank and Globals Assigner.
+Info:  Globals Assigner found no global involed in the problem.
+Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2021.1.0 
+Design: sobel_filter_top                Started: Tue Nov 16 19:29:20 2021
+
+Initializing High-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+==== Registers Duplicated ====
+1  - sobel_filter_inst/cur_state_rep_rep[7] duplicated 1 time. NumSink = 18
+     sobel_filter_inst/cur_state_rep_rep[7]__DUP16030 . NumSink = 3
+2  - sobel_filter_inst/sobel_filter_ond14_preheader_scevgep6_sum_reg[9] duplicated 1 time. NumSink = 2
+     sobel_filter_inst/sobel_filter_ond14_preheader_scevgep6_sum_reg[9]__DUP15741 . NumSink = 1
+3  - sobel_filter_inst/cur_state_1[6] duplicated 1 time. NumSink = 27
+     sobel_filter_inst/cur_state_1[6]__DUP16009 . NumSink = 2
+4  - sobel_filter_inst/cur_state[11] duplicated 1 time. NumSink = 13
+     sobel_filter_inst/cur_state[11]__DUP16016 . NumSink = 14
+5  - sobel_filter_inst/cur_state_rep_rep_0[7] duplicated 1 time. NumSink = 17
+     sobel_filter_inst/cur_state_rep_rep_0[7]__DUP16023 . NumSink = 5
+6  - sobel_filter_inst/cur_state_rep[10] duplicated 1 time. NumSink = 11
+     sobel_filter_inst/cur_state_rep[10]__DUP15935 . NumSink = 5
+7  - sobel_filter_inst/cur_state_2[6] duplicated 1 time. NumSink = 20
+     sobel_filter_inst/cur_state_2[6]__DUP15960 . NumSink = 9
+End of placement.
+
+Placer Runtime Summary   :
+Pre Physical Optimization    : 0 seconds
+Clustering (1 pass)      : 0 seconds
+Placement                : 2 seconds
+Improvement              : 3 seconds
+Physical Optimization    : 2 seconds
+
+Placer completed successfully.
+
+Design: sobel_filter_top                
+Finished: Tue Nov 16 19:29:55 2021
+Total CPU Time:     00:00:33            Total Elapsed Time: 00:00:35
+Total Memory Usage: 872.4 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_topStarted: Tue Nov 16 19:30:00 2021
+
+
+Router completed successfully.
+
+Design: C:\SmartHLS-2021.1.2\workspace\sobel-part1\synthesis\sobel-part1\designer\sobel_filter_top\sobel_filter_top
+Finished: Tue Nov 16 19:30:20 2021
+Total CPU Time:     00:00:32            Total Elapsed Time: 00:00:20
+Total Memory Usage: 1967.6 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+--------+------------+
+| Type          | Used | Total  | Percentage |
++---------------+------+--------+------------+
+| 4LUT          | 681  | 108600 | 0.63       |
+| DFF           | 439  | 108600 | 0.40       |
+| I/O Register  | 0    | 282    | 0.00       |
+| Logic Element | 723  | 108600 | 0.67       |
++---------------+------+--------+------------+
+
+Completed writing pin report files.
+Place and Route Elapsed Time: 1.45 minutes.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Verify Timing tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+*** IMPORTANT RECOMMENDATION *** If you haven't done so, it is highly recommended to add clock jitter information for each clock domain into Libero SoC through clock uncertainty SDC timing constraints. Please refer to the Libero SoC v2021.1 release notes for more details.
+No errors or warnings found.
+Verify Timing Elapsed Time: 24.3979 seconds.
+Info: Timing constraints have been met.
+
+Info: Multi-Pass: Iteration 1, Seed Index 4,  Worst Slack = 7.664
+
+
+Info: Multi-Pass: Have met stopping criterion (all timing constraints have been met), so ceasing iterations.
+
+Cleaning tool 'Verify Timing'...
+Error: Multi-Pass: Could not find summary information for run requested: 4
+Info: Multi-Pass: The best result sobel_filter_top_r4_s4 has been saved into the project:
+    C:/SmartHLS-2021.1.2/workspace/sobel-part1/synthesis/sobel-part1/sobel-part1.prjx
+
+The Execute Script command succeeded.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Verify Timing tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+*** IMPORTANT RECOMMENDATION *** If you haven't done so, it is highly recommended to add clock jitter information for each clock domain into Libero SoC through clock uncertainty SDC timing constraints. Please refer to the Libero SoC v2021.1 release notes for more details.
+No errors or warnings found.
+Verify Timing Elapsed Time: 25.2111 seconds.
+Info: Timing constraints have been met.
+Info: Successfully wrote HDL file 'C:/SmartHLS-2021.1.2/workspace/sobel-part1/synthesis/sobel-part1/synthesis/sobel_filter_top.v'
+The Execute Script command succeeded.
+The sobel-part1 project was closed.
+Number of calls:           1
+Cycle latency:     3,392,549
+SW/HW co-simulation: PASS
+make[1]: Leaving directory '/cygdrive/c/SmartHLS-2021.1.2/workspace/sobel-part1'
